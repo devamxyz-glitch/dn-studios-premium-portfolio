@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dnstudio/dn-studios-premium-portfolio/
+    - /bin/cp -Rf . $DEPLOYPATH
+    - cd $DEPLOYPATH && npm ci --include=dev
+    - cd $DEPLOYPATH && npm run build
+    - mkdir -p $DEPLOYPATH/tmp
+    - touch $DEPLOYPATH/tmp/restart.txt
