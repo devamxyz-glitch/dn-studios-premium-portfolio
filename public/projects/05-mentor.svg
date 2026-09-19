@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090909"/><stop offset=".58" stop-color="#171717"/><stop offset="1" stop-color="#080808"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfaf7"/><stop offset="1" stop-color="#e8e2d8"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="28" stdDeviation="30" flood-opacity=".55"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="40"/></filter>
+</defs>
+<rect width="1200" height="820" fill="url(#bg)"/>
+<circle cx="930" cy="180" r="230" fill="#9C8BEA" opacity=".11" filter="url(#soft)"/>
+<circle cx="170" cy="690" r="200" fill="#9C8BEA" opacity=".07" filter="url(#soft)"/>
+<text x="70" y="68" fill="#9C8BEA" font-family="Arial" font-size="14" letter-spacing="4">DN STUDIOS / PRODUCT DESIGN</text>
+<text x="70" y="112" fill="#f6f1e8" font-family="Arial" font-size="18">Education APP</text>
+<text x="70" y="175" fill="#fff" font-family="Georgia" font-size="55" font-weight="700"><tspan x="84" dy="0">LEARN WITHOUT LIMITS</tspan></text>
+<text x="70" y="315" fill="#a7a29a" font-family="Arial" font-size="15">A realistic product interface concept<br/>designed for modern users.</text>
+<rect x="84" y="360" width="330" height="48" rx="14" fill="#f5f2ec"/><text x="105" y="390" fill="#171717" font-size="16" font-family="Arial">Courses</text><text x="365" y="390" fill="#9C8BEA" font-size="12" font-family="Arial">›</text><rect x="84" y="422" width="330" height="48" rx="14" fill="#f5f2ec"/><text x="105" y="452" fill="#171717" font-size="16" font-family="Arial">Live classes</text><text x="365" y="390" fill="#9C8BEA" font-size="12" font-family="Arial">›</text><rect x="84" y="484" width="330" height="48" rx="14" fill="#f5f2ec"/><text x="105" y="514" fill="#171717" font-size="16" font-family="Arial">Progress</text><text x="365" y="390" fill="#9C8BEA" font-size="12" font-family="Arial">›</text>
+<rect x="705" y="58" width="330" height="704" rx="48" fill="#050505" stroke="#6b675f" stroke-width="2" filter="url(#shadow)"/>
+<rect x="724" y="77" width="292" height="666" rx="35" fill="url(#screen)"/>
+<rect x="824" y="88" width="92" height="22" rx="11" fill="#111"/>
+<text x="748" y="135" fill="#777" font-size="11" font-family="Arial">9:41</text>
+<text x="970" y="135" fill="#555" font-size="11" text-anchor="end" font-family="Arial">100%</text>
+<text x="748" y="184" fill="#1b1b1b" font-size="15" font-family="Arial" font-weight="700">MENTOR</text>
+<circle cx="976" cy="178" r="18" fill="#9C8BEA" opacity=".24"/><text x="976" y="184" text-anchor="middle" fill="#222" font-size="12" font-family="Arial">●</text>
+<rect x="748" y="210" width="244" height="145" rx="22" fill="#9C8BEA"/>
+<text x="768" y="247" fill="#171717" font-size="12" font-family="Arial" opacity=".7">FEATURED</text>
+<text x="768" y="286" fill="#171717" font-size="26" font-family="Arial" font-weight="700">MENTOR</text>
+<text x="768" y="314" fill="#171717" font-size="12" font-family="Arial">Designed for a smoother everyday flow.</text>
+<rect x="748" y="380" width="244" height="78" rx="18" fill="#fff" stroke="#ddd7cc"/>
+<text x="766" y="408" fill="#888" font-size="10" font-family="Arial">POPULAR TODAY</text>
+<text x="766" y="436" fill="#222" font-size="16" font-family="Arial" font-weight="700">Smart, simple &amp; fast</text>
+<circle cx="953" cy="419" r="22" fill="#171717"/><text x="953" y="425" text-anchor="middle" fill="#fff" font-size="18" font-family="Arial">→</text>
+<text x="748" y="495" fill="#777" font-size="11" font-family="Arial">RECOMMENDED</text>
+<rect x="748" y="514" width="116" height="112" rx="18" fill="#d9d2c6"/><rect x="876" y="514" width="116" height="112" rx="18" fill="#c8c0b4"/>
+<rect x="748" y="642" width="244" height="46" rx="16" fill="#171717"/><text x="870" y="671" text-anchor="middle" fill="#fff" font-size="13" font-family="Arial" font-weight="700">OPEN MENTOR</text>
+<text x="70" y="775" fill="#68645e" font-family="Arial" font-size="11" letter-spacing="2">MOBILE-FIRST · RESPONSIVE · PRODUCTION-READY UI DIRECTION</text>
+</svg>
