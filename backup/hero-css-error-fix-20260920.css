@@ -1241,7 +1241,7 @@ img{max-width:100%}
 .lux-orbit-core{width:34%}
 .lux-nav{padding:14px 4vw}
 .lux-nav-cta{box-shadow:0 8px 30px rgba(216,181,109,.09)}
-
+.lux-hero:after{content:";position:absolute;width:520px;height:520px;right:8%;top:18%;border-radius:50%;background:radial-gradient(circle,rgba(216,181,109,.055),transparent 68%);filter:blur(10px);pointer-events:none}
 .lux-manifesto{padding-top:9vw}
 .lux-work-section{padding-top:1vw}
 @media(max-width:1050px){.lux-hero{grid-template-columns:1fr;min-height:auto;padding:12vw 6vw 8vw}.lux-hero-copy{max-width:850px}.lux-orbit{width:min(58vw,480px);justify-self:center;transform:none;margin-top:50px}.lux-hero:after{right:20%;top:48%}}
