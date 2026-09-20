@@ -1226,23 +1226,3 @@ img{max-width:100%}
   .dn-terms-list article{grid-template-columns:45px 1fr;gap:14px}
   .dn-simple-footer{flex-direction:column}
 }
-/* DN HERO POLISH 2026 */
-.lux-hero{min-height:calc(100vh - 66px);grid-template-columns:minmax(0,1.05fr) minmax(380px,.8fr);padding:6vw 5vw 5vw;gap:2vw;}
-.lux-hero-copy{max-width:780px}
-.lux-hero h1{font-size:clamp(58px,6.3vw,108px);line-height:.86;letter-spacing:-.065em;max-width:760px;margin:20px 0 24px}
-.lux-hero h1 em{font-size:.92em;line-height:.9}
-.lux-hero-copy>p{max-width:560px;font-size:14px;line-height:1.75}
-.lux-hero-actions{margin-top:28px}
-.lux-hero-meta{margin-top:34px}
-.lux-orbit{width:min(34vw,470px);justify-self:center;transform:translateX(2vw)}
-.lux-orbit-glow{inset:15%;filter:blur(25px)}
-.lux-orbit-chip{font-size:6px;padding:7px 9px}
-.lux-ring-1{inset:7%}.lux-ring-2{inset:21%}.lux-ring-3{inset:35%}
-.lux-orbit-core{width:34%}
-.lux-nav{padding:14px 4vw}
-.lux-nav-cta{box-shadow:0 8px 30px rgba(216,181,109,.09)}
-.lux-hero:after{content:";position:absolute;width:520px;height:520px;right:8%;top:18%;border-radius:50%;background:radial-gradient(circle,rgba(216,181,109,.055),transparent 68%);filter:blur(10px);pointer-events:none}
-.lux-manifesto{padding-top:9vw}
-.lux-work-section{padding-top:1vw}
-@media(max-width:1050px){.lux-hero{grid-template-columns:1fr;min-height:auto;padding:12vw 6vw 8vw}.lux-hero-copy{max-width:850px}.lux-orbit{width:min(58vw,480px);justify-self:center;transform:none;margin-top:50px}.lux-hero:after{right:20%;top:48%}}
-@media(max-width:700px){.lux-hero{padding:24vw 20px 16vw}.lux-hero h1{font-size:clamp(50px,13vw,76px);max-width:600px;line-height:.86}.lux-hero h1 em{font-size:.9em}.lux-hero-copy>p{font-size:13px}.lux-orbit{width:84vw;max-width:400px;margin-top:35px}.lux-hero:after{width:300px;height:300px;right:-20%;top:55%}}
