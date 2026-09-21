@@ -1,68 +1,16 @@
 import Link from "next/link";
-
-const terms = [
-  ["01","Services","DN Studios provides digital design and development services including websites, web applications, mobile applications, e-commerce systems, progressive web applications and custom software. Project scope is defined by the applicable proposal or written agreement."],
-  ["02","Estimates","Prices and timelines shown on the website are indicative unless expressly confirmed in writing. A final estimate is prepared after the project requirements and scope have been understood."],
-  ["03","Payment","Payment terms are agreed before development begins and may be divided into milestones. Hosting, domains, paid APIs, third-party subscriptions and similar external charges are separate unless specifically included."],
-  ["04","Scope & Revisions","The agreed scope defines the expected deliverables. Material changes or additional functionality may require a revised estimate and timeline."],
-  ["05","Client Materials","The client is responsible for supplying accurate content, brand assets, credentials, approvals and other material needed for timely project progress."],
-  ["06","Third-Party Services","Projects may rely on hosting providers, payment gateways, APIs, app stores and other third-party services. Their availability, pricing and policies are outside DN Studios' direct control."],
-  ["07","Intellectual Property","Project-specific final work is transferred according to the agreed commercial terms after the applicable payments are completed. Pre-existing tools, reusable components and third-party materials remain subject to their own rights and licences."],
-  ["08","Portfolio Use","Unless confidentiality restrictions have been agreed in writing, completed work may be displayed as part of the DN Studios portfolio or case studies."],
-  ["09","Timelines","Published timelines are estimates. Delivery can be affected by scope changes, delayed feedback, missing content, third-party dependencies or circumstances outside reasonable control."],
-  ["10","Cancellation","A project may be cancelled subject to the agreed payment and milestone terms. Work already completed or committed third-party costs may remain chargeable."],
-  ["11","Support","Post-launch maintenance and future feature development are handled according to the support arrangement agreed for the project."],
-  ["12","Responsibility","DN Studios takes reasonable care in design, development and testing. The studio is not responsible for losses caused by misuse, unauthorised changes, inaccurate client information or third-party service failures."]
+const terms=[
+ ["01","Services","DN Studios provides digital design and development services including websites, web applications, mobile applications, e-commerce systems, progressive web applications and custom software. Project scope is defined by the applicable proposal or written agreement."],
+ ["02","Estimates","Prices and timelines shown on the website are indicative unless expressly confirmed in writing. A final estimate is prepared after the project requirements and scope have been understood."],
+ ["03","Payment","Payment terms are agreed before development begins and may be divided into milestones. Hosting, domains, paid APIs, third-party subscriptions and similar external charges are separate unless specifically included."],
+ ["04","Scope & Revisions","The agreed scope defines the expected deliverables. Material changes or additional functionality may require a revised estimate and timeline."],
+ ["05","Client Materials","The client is responsible for supplying accurate content, brand assets, credentials, approvals and other material needed for timely project progress."],
+ ["06","Third-Party Services","Projects may rely on hosting providers, payment gateways, APIs, app stores and other third-party services. Their availability, pricing and policies are outside DN Studios' direct control."],
+ ["07","Intellectual Property","Project-specific final work is transferred according to the agreed commercial terms after the applicable payments are completed. Pre-existing tools, reusable components and third-party materials remain subject to their own rights and licences."],
+ ["08","Portfolio Use","Unless confidentiality restrictions have been agreed in writing, completed work may be displayed as part of the DN Studios portfolio or case studies."],
+ ["09","Timelines","Published timelines are estimates. Delivery can be affected by scope changes, delayed feedback, missing content, third-party dependencies or circumstances outside reasonable control."],
+ ["10","Cancellation","A project may be cancelled subject to the agreed payment and milestone terms. Work already completed or committed third-party costs may remain chargeable."],
+ ["11","Support","Post-launch maintenance and future feature development are handled according to the support arrangement agreed for the project."],
+ ["12","Responsibility","DN Studios takes reasonable care in design, development and testing. The studio is not responsible for losses caused by misuse, unauthorised changes, inaccurate client information or third-party service failures."]
 ];
-
-export default function TermsPage(){
-  return (
-    <main className="dn-terms-page">
-      <div className="dn-terms-shell">
-        <header className="dn-about-nav">
-          <span>DN STUDIOS / TERMS</span>
-          <Link href="/">BACK TO PORTFOLIO</Link>
-        </header>
-
-        <section className="dn-terms-hero">
-          <span>TERMS &amp; CONDITIONS</span>
-          <h1>Clear terms for straightforward project work.</h1>
-          <p>
-            These general terms describe the basis on which DN Studios provides digital
-            design and development services. Project-specific written agreements may define
-            additional terms where required.
-          </p>
-          <small>LAST UPDATED: SEPTEMBER 2026</small>
-        </section>
-
-        <section className="dn-terms-list">
-          {terms.map(([no,title,text]) => (
-            <article key={no}>
-              <span>{no}</span>
-              <div>
-                <h2>{title}</h2>
-                <p>{text}</p>
-              </div>
-            </article>
-          ))}
-        </section>
-
-        <section className="dn-terms-contact">
-          <span>PROJECT QUESTIONS</span>
-          <h2>Contact DN Studios directly.</h2>
-          <div>
-            <a href="tel:+918780692285">+91 87806 92285</a>
-            <a href="https://wa.me/918780692285?text=Hello%20DN%20Studios%2C%0A%0AI%20have%20a%20question%20about%20the%20project%20terms.%0A%0ARegards%2C" target="_blank" rel="noreferrer">WHATSAPP</a>
-          </div>
-        </section>
-
-        <footer className="dn-simple-footer">
-          <span>DN STUDIOS</span>
-          <span>GUJARAT / INDIA</span>
-          <Link href="/about">ABOUT</Link>
-          <Link href="/">RETURN HOME</Link>
-        </footer>
-      </div>
-    </main>
-  );
-}
+export default function TermsPage(){return <main className="dn-terms-page"><div className="dn-terms-shell"><header className="dn-about-nav"><span>DN STUDIOS / TERMS</span><Link href="/">BACK TO PORTFOLIO</Link></header><section className="dn-terms-hero"><span>TERMS &amp; CONDITIONS</span><h1>Clear terms for straightforward project work.</h1><p>These general terms describe the basis on which DN Studios provides digital design and development services. Project-specific written agreements may define additional terms where required.</p><small>LAST UPDATED: SEPTEMBER 2026</small></section><section className="dn-terms-list">{terms.map(x=><article key={x[0]}><span>{x[0]}</span><div><h2>{x[1]}</h2><p>{x[2]}</p></div></article>)}</section><section className="dn-terms-contact"><span>PROJECT QUESTIONS</span><h2>Contact DN Studios directly.</h2><div><a href="tel:+918780692285">+91 87806 92285</a><a href="https://wa.me/918780692285?text=Hello%20DN%20Studios%2C%0A%0AI%20have%20a%20question%20about%20the%20project%20terms.%0A%0ARegards%2C" target="_blank" rel="noreferrer">WHATSAPP</a></div></section><footer className="dn-simple-footer"><span>DN STUDIOS</span><span>GUJARAT / INDIA</span><Link href="/about">ABOUT</Link><Link href="/">RETURN HOME</Link></footer></div></main>}

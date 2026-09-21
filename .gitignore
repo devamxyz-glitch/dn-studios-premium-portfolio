@@ -4,3 +4,7 @@
 .env
 .env.local
 .env.*
+
+# DN Studios local backups
+.dn-v6-backup-*/
+.dn-v7-backup-*/
